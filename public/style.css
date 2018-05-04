@@ -1,0 +1,25 @@
+/*
+ * style.css
+ * Copyright (C) 2018 t0m
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: coulmn;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+#chat-messages {
+	min-height: 10vh;
+	height: 60vh;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+
